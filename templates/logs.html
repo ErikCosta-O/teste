@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Logs do Servidor Flask</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .log-container { background: #000000; color: #eee; padding: 1em; border-radius: 8px; max-height: 80vh; overflow-y: auto; }
+        .log-line { white-space: pre-wrap; margin: 0; }
+        .INFO { color: #65ff23; }
+        .WARNING { color: #ff0; }
+        .ERROR, .CRITICAL { color: #f33; font-weight: bold; }
+        .DEBUG { color: #0ff; }
+    </style>
+</head>
+<body>
+    <h1>Logs do Servidor Flask</h1>
+    <div class="log-container" id="log-content">Carregando logs...</div>
+    <script>
+        function formatLogs(text) {
+            const lines = text.split('\n');
+            return lines.map(line => {
+                if (line.includes('INFO')) return `<div class="log-line INFO">${line}</div>`;
+                if (line.includes('WARNING')) return `<div class="log-line WARNING">${line}</div>`;
+                if (line.includes('ERROR')) return `<div class="log-line ERROR">${line}</div>`;
+                if (line.includes('CRITICAL')) return `<div class="log-line CRITICAL">${line}</div>`;
+                if (line.includes('DEBUG')) return `<div class="log-line DEBUG">${line}</div>`;
+                return `<div class="log-line">${line}</div>`;
+            }).join('');
+        }
+        function atualizarLogs() {
+            fetch('/logs_data')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('log-content').innerHTML = formatLogs(data);
+                    const container = document.getElementById('log-content');
+                    container.scrollTop = container.scrollHeight;
+                });
+        }
+        setInterval(atualizarLogs, 3000);
+        atualizarLogs();
+    </script>
+</body>
+</html>

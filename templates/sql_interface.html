@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta SQL</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        textarea { width: 100%; }
+        pre { background: #f4f4f4; padding: 1em; }
+        .comandos { background: #e0eaff; padding: 1em; margin-bottom: 1em; border-radius: 8px; }
+        .comandos h2 { margin-top: 0; }
+        .comandos code { background: #d0d0d0; padding: 2px 4px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>Consulta SQL</h1>
+    <div class="comandos">
+        <h2>Exemplos de Consulta</h2>
+        <ul>
+            <li><b>Listar todos:</b> <code>SELECT * FROM tb_cadastro;</code></li>
+            <li><b>Consultar por email:</b> <code>SELECT * FROM tb_cadastro WHERE EMAIL = 'joao@email.com';</code></li>
+            <li><b>Consultar por nome:</b> <code>SELECT * FROM tb_cadastro WHERE NOME LIKE '%João%';</code></li>
+        </ul>
+        <b>Atenção:</b> Só é permitido comandos SELECT!
+        
+    </div>
+    <form method="post">
+        <label for="comando_sql"><b>Digite seu comando SELECT:</b></label><br>
+        <textarea name="comando_sql" id="comando_sql" rows="3" placeholder="Exemplo: SELECT * FROM tb_cadastro;"></textarea><br>
+        <button type="submit">Consultar</button>
+    </form>
+    {% if resultado and colunas %}
+        <h2>Resultado:</h2>
+        <table border="1" cellpadding="5" style="border-collapse: collapse;">
+            <tr>
+                {% for col in colunas %}
+                    <th>{{ col }}</th>
+                {% endfor %}
+            </tr>
+            {% for linha in resultado %}
+                <tr>
+                    {% for valor in linha %}
+                        <td>{{ valor }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+    {% elif resultado %}
+        <h2>Resultado:</h2>
+        <pre>{{ resultado }}</pre>
+    {% endif %}
+    {% if erro %}
+        <h2 style="color:red;">Erro:</h2>
+        <pre>{{ erro }}</pre>
+    {% endif %}
+</body>
+</html>

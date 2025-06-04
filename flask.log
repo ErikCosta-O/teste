@@ -1,0 +1,92 @@
+2025-06-04 00:14:33,480 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.0.198:8080
+2025-06-04 00:14:33,480 INFO: [33mPress CTRL+C to quit[0m
+2025-06-04 00:14:33,481 INFO:  * Restarting with stat
+2025-06-04 00:14:33,819 WARNING:  * Debugger is active!
+2025-06-04 00:14:33,822 INFO:  * Debugger PIN: 146-026-503
+2025-06-04 00:14:37,147 INFO: IP: 192.168.0.198 - Método: GET - Rota: / - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:14:37,153 INFO: 192.168.0.198 - - [04/Jun/2025 00:14:37] "GET / HTTP/1.1" 200 -
+2025-06-04 00:14:37,184 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/styles/estilo.css - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:14:37,185 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/crud.js - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:14:37,225 INFO: 192.168.0.198 - - [04/Jun/2025 00:14:37] "[36mGET /static/styles/estilo.css HTTP/1.1[0m" 304 -
+2025-06-04 00:14:37,244 INFO: 192.168.0.198 - - [04/Jun/2025 00:14:37] "GET /static/crud.js HTTP/1.1" 200 -
+2025-06-04 00:14:37,419 INFO: IP: 192.168.0.198 - Método: GET - Rota: /logs_data - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:14:37,430 INFO: 192.168.0.198 - - [04/Jun/2025 00:14:37] "GET /logs_data HTTP/1.1" 200 -
+2025-06-04 00:14:44,285 INFO: IP: 192.168.0.198 - Método: GET - Rota: /listar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:14:44,287 INFO: 192.168.0.198 - - [04/Jun/2025 00:14:44] "GET /listar HTTP/1.1" 200 -
+2025-06-04 00:14:52,085 INFO: IP: 192.168.0.198 - Método: GET - Rota: /consultar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:14:52,087 INFO: 192.168.0.198 - - [04/Jun/2025 00:14:52] "GET /consultar?nome=João&email=joao@gmail.com HTTP/1.1" 200 -
+2025-06-04 00:15:44,121 INFO: IP: 192.168.0.198 - Método: GET - Rota: /consultar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:15:44,124 INFO: 192.168.0.198 - - [04/Jun/2025 00:15:44] "GET /consultar?nome=João&email=joao@gmail.com HTTP/1.1" 200 -
+2025-06-04 00:15:45,143 INFO: IP: 192.168.0.198 - Método: GET - Rota: / - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:15:45,143 INFO: 192.168.0.198 - - [04/Jun/2025 00:15:45] "GET / HTTP/1.1" 200 -
+2025-06-04 00:15:45,162 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/styles/estilo.css - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:15:45,163 INFO: 192.168.0.198 - - [04/Jun/2025 00:15:45] "[36mGET /static/styles/estilo.css HTTP/1.1[0m" 304 -
+2025-06-04 00:15:45,164 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/crud.js - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:15:45,179 INFO: 192.168.0.198 - - [04/Jun/2025 00:15:45] "GET /static/crud.js HTTP/1.1" 200 -
+2025-06-04 00:15:47,516 INFO: IP: 192.168.0.198 - Método: GET - Rota: /consultar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:15:47,518 INFO: 192.168.0.198 - - [04/Jun/2025 00:15:47] "GET /consultar?nome=João&email=joao@gmail.com HTTP/1.1" 200 -
+2025-06-04 00:17:55,054 INFO: IP: 192.168.0.198 - Método: GET - Rota: / - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:17:55,054 INFO: 192.168.0.198 - - [04/Jun/2025 00:17:55] "GET / HTTP/1.1" 200 -
+2025-06-04 00:17:55,074 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/styles/estilo.css - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:17:55,075 INFO: 192.168.0.198 - - [04/Jun/2025 00:17:55] "[36mGET /static/styles/estilo.css HTTP/1.1[0m" 304 -
+2025-06-04 00:17:55,080 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/crud.js - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:17:55,097 INFO: 192.168.0.198 - - [04/Jun/2025 00:17:55] "GET /static/crud.js HTTP/1.1" 200 -
+2025-06-04 00:17:57,498 INFO: IP: 192.168.0.198 - Método: GET - Rota: /consultar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:17:57,500 INFO: 192.168.0.198 - - [04/Jun/2025 00:17:57] "GET /consultar?nome=João&email=joao@gmail.com HTTP/1.1" 200 -
+2025-06-04 00:18:21,097 INFO: IP: 192.168.0.198 - Método: GET - Rota: / - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:18:21,098 INFO: 192.168.0.198 - - [04/Jun/2025 00:18:21] "GET / HTTP/1.1" 200 -
+2025-06-04 00:18:21,117 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/styles/estilo.css - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:18:21,117 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/crud.js - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:18:21,118 INFO: 192.168.0.198 - - [04/Jun/2025 00:18:21] "[36mGET /static/styles/estilo.css HTTP/1.1[0m" 304 -
+2025-06-04 00:18:21,135 INFO: 192.168.0.198 - - [04/Jun/2025 00:18:21] "GET /static/crud.js HTTP/1.1" 200 -
+2025-06-04 00:18:22,946 INFO: IP: 192.168.0.198 - Método: GET - Rota: /consultar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:18:22,948 INFO: 192.168.0.198 - - [04/Jun/2025 00:18:22] "GET /consultar?nome=João&email=joao@gmail.com HTTP/1.1" 200 -
+2025-06-04 00:18:47,358 INFO: IP: 192.168.0.198 - Método: GET - Rota: / - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:18:47,359 INFO: 192.168.0.198 - - [04/Jun/2025 00:18:47] "GET / HTTP/1.1" 200 -
+2025-06-04 00:18:47,379 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/styles/estilo.css - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:18:47,380 INFO: 192.168.0.198 - - [04/Jun/2025 00:18:47] "[36mGET /static/styles/estilo.css HTTP/1.1[0m" 304 -
+2025-06-04 00:18:47,382 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/crud.js - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:18:47,398 INFO: 192.168.0.198 - - [04/Jun/2025 00:18:47] "GET /static/crud.js HTTP/1.1" 200 -
+2025-06-04 00:18:49,716 INFO: IP: 192.168.0.198 - Método: GET - Rota: /consultar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:18:49,719 INFO: 192.168.0.198 - - [04/Jun/2025 00:18:49] "GET /consultar?nome=João&email=joao@gmail.com HTTP/1.1" 200 -
+2025-06-04 00:19:34,566 INFO: IP: 192.168.0.198 - Método: GET - Rota: / - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:19:34,566 INFO: 192.168.0.198 - - [04/Jun/2025 00:19:34] "GET / HTTP/1.1" 200 -
+2025-06-04 00:19:34,591 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/styles/estilo.css - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:19:34,592 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/crud.js - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:19:34,592 INFO: 192.168.0.198 - - [04/Jun/2025 00:19:34] "[36mGET /static/styles/estilo.css HTTP/1.1[0m" 304 -
+2025-06-04 00:19:34,608 INFO: 192.168.0.198 - - [04/Jun/2025 00:19:34] "GET /static/crud.js HTTP/1.1" 200 -
+2025-06-04 00:19:36,895 INFO: IP: 192.168.0.198 - Método: GET - Rota: /consultar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:19:36,898 INFO: 192.168.0.198 - - [04/Jun/2025 00:19:36] "GET /consultar?nome=João&email=joao@gmail.com HTTP/1.1" 200 -
+2025-06-04 00:19:39,150 INFO: IP: 192.168.0.198 - Método: POST - Rota: /deletar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:19:39,156 INFO: 192.168.0.198 - - [04/Jun/2025 00:19:39] "POST /deletar HTTP/1.1" 200 -
+2025-06-04 00:19:39,161 INFO: IP: 192.168.0.198 - Método: GET - Rota: /listar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:19:39,165 INFO: 192.168.0.198 - - [04/Jun/2025 00:19:39] "GET /listar HTTP/1.1" 200 -
+2025-06-04 00:19:56,918 INFO: IP: 192.168.0.198 - Método: GET - Rota: / - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:19:56,918 INFO: 192.168.0.198 - - [04/Jun/2025 00:19:56] "GET / HTTP/1.1" 200 -
+2025-06-04 00:19:56,938 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/styles/estilo.css - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:19:56,939 INFO: 192.168.0.198 - - [04/Jun/2025 00:19:56] "[36mGET /static/styles/estilo.css HTTP/1.1[0m" 304 -
+2025-06-04 00:19:56,939 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/crud.js - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:19:56,940 INFO: 192.168.0.198 - - [04/Jun/2025 00:19:56] "[36mGET /static/crud.js HTTP/1.1[0m" 304 -
+2025-06-04 00:19:58,666 INFO: IP: 192.168.0.198 - Método: GET - Rota: /consultar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:19:58,668 INFO: 192.168.0.198 - - [04/Jun/2025 00:19:58] "[33mGET /consultar?nome=João&email=joao@gmail.com HTTP/1.1[0m" 404 -
+2025-06-04 00:20:40,264 INFO: IP: 192.168.0.198 - Método: GET - Rota: / - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:20:40,265 INFO: 192.168.0.198 - - [04/Jun/2025 00:20:40] "GET / HTTP/1.1" 200 -
+2025-06-04 00:20:40,286 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/styles/estilo.css - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:20:40,287 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/crud.js - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:20:40,287 INFO: 192.168.0.198 - - [04/Jun/2025 00:20:40] "[36mGET /static/styles/estilo.css HTTP/1.1[0m" 304 -
+2025-06-04 00:20:40,305 INFO: 192.168.0.198 - - [04/Jun/2025 00:20:40] "GET /static/crud.js HTTP/1.1" 200 -
+2025-06-04 00:20:41,413 INFO: IP: 192.168.0.198 - Método: GET - Rota: / - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:20:41,414 INFO: 192.168.0.198 - - [04/Jun/2025 00:20:41] "GET / HTTP/1.1" 200 -
+2025-06-04 00:20:41,430 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/styles/estilo.css - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:20:41,431 INFO: IP: 192.168.0.198 - Método: GET - Rota: /static/crud.js - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:20:41,431 INFO: 192.168.0.198 - - [04/Jun/2025 00:20:41] "[36mGET /static/styles/estilo.css HTTP/1.1[0m" 304 -
+2025-06-04 00:20:41,432 INFO: 192.168.0.198 - - [04/Jun/2025 00:20:41] "[36mGET /static/crud.js HTTP/1.1[0m" 304 -
+2025-06-04 00:20:44,469 INFO: IP: 192.168.0.198 - Método: GET - Rota: /consultar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:20:44,471 INFO: 192.168.0.198 - - [04/Jun/2025 00:20:44] "[33mGET /consultar?nome=João&email=joao@gmail.com HTTP/1.1[0m" 404 -
+2025-06-04 00:20:45,178 INFO: IP: 192.168.0.198 - Método: GET - Rota: /consultar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:20:45,181 INFO: 192.168.0.198 - - [04/Jun/2025 00:20:45] "[33mGET /consultar?nome=João&email=joao@gmail.com HTTP/1.1[0m" 404 -
+2025-06-04 00:20:45,406 INFO: IP: 192.168.0.198 - Método: GET - Rota: /consultar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:20:45,409 INFO: 192.168.0.198 - - [04/Jun/2025 00:20:45] "[33mGET /consultar?nome=João&email=joao@gmail.com HTTP/1.1[0m" 404 -
+2025-06-04 00:20:45,588 INFO: IP: 192.168.0.198 - Método: GET - Rota: /consultar - User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+2025-06-04 00:20:45,590 INFO: 192.168.0.198 - - [04/Jun/2025 00:20:45] "[33mGET /consultar?nome=João&email=joao@gmail.com HTTP/1.1[0m" 404 -
